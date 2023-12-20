@@ -180,6 +180,6 @@ manager = autogen.GroupChatManager(groupchat=groupchat, llm_config=llm_config)
 user_proxy.initiate_chat(
     manager,
     #message="I want to design an app to make me one million dollars in one month. Yes, your heard that right.",
-    message="I want to design an web app and publish it. It should be a basic login page.",
+    message="I want to design an web app and publish it on port 80.",
 
 )
